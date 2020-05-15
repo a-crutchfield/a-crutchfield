@@ -1,0 +1,66 @@
+
+
+
+/* For the logo */
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+/* For the nav */
+nav ul{
+	padding-bottom: 5px;
+	margin:0 auto;
+}
+/* For main */
+main{
+	padding-top: 20px;
+	background-color: #F9E79F;
+}
+h1, h2, h4{
+	text-align: center;
+}
+#selfhero{
+	background-image: url(images/image1.jpg);
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 600px;
+	width: 480px;
+	background-repeat: no-repeat;
+}
+footer{
+	font-size: 12px;
+	text-align: center;
+}
+
+/*Adds a margin underneath each image in the slide show */
+.boxstyle{
+	margin-bottom:20px;
+}
+
+/*Centers the images and sets a max width of 700px */
+.wb-carousel{
+	max-width:1400px;
+	margin:20px auto;
+}
+
+main, .navbar .container-fluid{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
+
